@@ -1,0 +1,36 @@
+{
+  "name": "ember-cli-groundskeeper",
+  "version": "0.1.0",
+  "description": "Ember-CLI addon for groundskeeper.",
+  "scripts": {
+    "test": "echo \"No test specified yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MadMG/ember-cli-groundskeeper.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": {
+    "name": "Martin Groller",
+    "email": "madmg82@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MadMG/ember-cli-groundskeeper/issues"
+  },
+  "homepage": "https://github.com/MadMG/ember-cli-groundskeeper",
+  "keywords": [
+    "ember-addon",
+    "groundskeeper"
+  ],
+  "ember-addon": {
+    "before": [
+      "ember-cli-uglify"
+    ]
+  },
+  "dependencies": {
+    "broccoli-groundskeeper": "^0.1.0"
+  }
+}

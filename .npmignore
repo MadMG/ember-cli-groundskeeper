@@ -1,0 +1,8 @@
+bower_components/
+tests/
+tmp/
+.idea
+
+.travis.yml
+.npmignore
+**/.gitkeep
